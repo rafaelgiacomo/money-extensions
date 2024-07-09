@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <PackageId>MoneyExtension</PackageId>
+    <PackageId>MoneyExtensionGiacomo</PackageId>
     <Version>1.0.0</Version>
     <Icon>icon.png</Icon>
     <License>MIT</License>
