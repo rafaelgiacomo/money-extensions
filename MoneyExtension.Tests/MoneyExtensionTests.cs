@@ -1,4 +1,4 @@
-using MoneyExtension;
+using GiacomoMoneyExtension;
 
 namespace MoneyExtension.Tests;
 

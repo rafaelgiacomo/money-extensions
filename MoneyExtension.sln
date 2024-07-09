@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyExtension", "MoneyExtension\MoneyExtension.csproj", "{B909C23C-ADDD-4E9E-A5D3-D35838C39383}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyExtension.Tests", "MoneyExtension.Tests\MoneyExtension.Tests.csproj", "{10B3FCFD-DDF4-42A9-87BF-8614BF8C6E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiacomoMoneyExtension", "GiacomoMoneyExtension\GiacomoMoneyExtension.csproj", "{300AF291-774A-4863-99E3-F96CCB644AB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,13 +16,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B909C23C-ADDD-4E9E-A5D3-D35838C39383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B909C23C-ADDD-4E9E-A5D3-D35838C39383}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B909C23C-ADDD-4E9E-A5D3-D35838C39383}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B909C23C-ADDD-4E9E-A5D3-D35838C39383}.Release|Any CPU.Build.0 = Release|Any CPU
 		{10B3FCFD-DDF4-42A9-87BF-8614BF8C6E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{10B3FCFD-DDF4-42A9-87BF-8614BF8C6E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10B3FCFD-DDF4-42A9-87BF-8614BF8C6E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10B3FCFD-DDF4-42A9-87BF-8614BF8C6E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300AF291-774A-4863-99E3-F96CCB644AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300AF291-774A-4863-99E3-F96CCB644AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300AF291-774A-4863-99E3-F96CCB644AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300AF291-774A-4863-99E3-F96CCB644AB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

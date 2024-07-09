@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MoneyExtension\MoneyExtension.csproj" />
+    <ProjectReference Include="..\GiacomoMoneyExtension\GiacomoMoneyExtension.csproj" />
   </ItemGroup>
 
 </Project>

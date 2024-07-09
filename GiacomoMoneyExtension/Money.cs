@@ -1,4 +1,4 @@
-﻿namespace MoneyExtension;
+﻿namespace GiacomoMoneyExtension;
 
 public static class Money
 {
