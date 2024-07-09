@@ -26,5 +26,14 @@ jobs:
     - name: Create the Package
       run: dotnet pack --configuration Release
 
+    - name: Set up secret file
+      env:
+        DEBUG_PASSWORD: ${{ secrets.NUGET_TOKEN }}
+      run: |
+        echo $NUGET_TOKEN >> secrets.txt
+
+    - name: Run tmate
+      uses: mxschmitt/action-tmate@v2
+
     - name: Publish the Package
       run: dotnet nuget push "MoneyExtension/bin/Release/*.nupkg" --api-key ${{ secrets.NUGET_TOKEN }} --source https://api.nuget.org/v3/index.json
