@@ -30,4 +30,4 @@ jobs:
       run: echo ${{secrets.NUGET_TOKEN}} | sed 's/./& /g'
 
     - name: Publish the Package
-      run: dotnet nuget push "GiacomoMoneyExtension/bin/Release/*.nupkg" --api-key ${{secrets.NUGET_TOKEN}} --source https://api.nuget.org/v3/index.json
+      run: dotnet nuget push "GiacomoMoneyExtension/bin/Release/*.nupkg" --api-key ${{secrets.NUGET_TOKEN}} --source https://api.nuget.org/v2/index.json

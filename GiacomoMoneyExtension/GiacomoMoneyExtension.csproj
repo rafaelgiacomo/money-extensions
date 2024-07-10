@@ -5,11 +5,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <PackageId>GiacomoMoneyExtension</PackageId>
+    <PackageId>RafaelGiacomo.GiacomoMoneyExtension</PackageId>
     <Version>1.0.0</Version>
+    <Author>Rafael Rodrigues Giacomo</Author>
+    <Product>GiacomoMoneyExtension</Product>
+
     <Icon>icon.png</Icon>
     <License>MIT</License>
-    <Authors>Rafael Rodrigues Giacomo</Authors>
     <Company>RG Consultoria</Company>
     <PackageDescription>Money Extension</PackageDescription>
     <RepositoryUrl>https://github.com/rafaelgiacomo/money-extensions</RepositoryUrl>
