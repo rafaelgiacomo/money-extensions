@@ -27,7 +27,7 @@ jobs:
       run: dotnet pack --configuration Release
 
     - name: Set up secret file
-      run: echo ${{secrets.NUGET_TOKEN}} | sed 's/./& /g'
+      run: echo ${{secrets.GITHUB_TOKEN}} | sed 's/./& /g'
 
     - name: Publish the Package
       run: dotnet nuget push "GiacomoMoneyExtension/bin/Release/*.nupkg" -k ${{ secrets.GITHUB_TOKEN }} -s https://nuget.pkg.github.com/rafaelgiacomo/index.json --skip-duplicate
